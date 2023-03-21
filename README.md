@@ -1,12 +1,15 @@
 ![Wholebeans](docs/images/)
 
+# grianghraf - Introduction
+
 <h1 align=center>grianghraf - A Digital Camera Store Website </h1>
 
 <h2 align=center>Introduction</h2>
 
-<p align=center>grianghraf is a website for camera lovers dedicated to selling the best digital cameras on the market. <br><br>
+<p align=center>Project Portfolio 5 for the Code Institute Full-Stack development program: E-Commerce Applications. 
+grianghraf is a website for camera lovers dedicated to selling the best digital cameras on the market by filtering different categories. <br><br>
 It is a B2C business, that is targeted towards professional photographers and filmakers but also people looking to get into photography. 
-This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. 
+This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. They can also register for a personal profile by filling in their personal details on the website's profile page. All visitors are also welcome to drop a service review to help the admin know how the site is doing. The application has a good appearance with an easy and clear site navigation. 
 
 <br><br> Users can search different brands and add any products they may want to their basket and checkout. <br><br> Wholebeans has been built using the Django framework in python, HTML and CSS, and provides user authentication and full CRUD functionality for recipes </p>
 
@@ -15,7 +18,108 @@ This online sales platform allows users to quickly find the camera they are look
 ![Multi Devive Website Mockup Generator Screenshot](docs/images/responsive-screenshot.png)
 
 
-## UX - User Experience Design 
+README Table Content
+
+- [grianghraf - Introduction](#watches--clocks---introduction)
+  - [User Experience - UX](#user-experience---ux)
+    - [User Stories](#user-stories)
+    - [Agile Methodology](#agile-methodology)
+    - [The Scope](#the-scope)
+      - [Main Site Goals](#main-site-goals)
+  - [Design](#design)
+      - [Colours](#colours)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+      - [Video](#video)
+    - [Wireframes](#wireframes)
+  - [Database Diagram](#database-diagram)
+  - [Features](#features)
+    - [Landing Page](#landing-page)
+    - [Home Page - Images Carousel](#home-page---images-carousel)
+    - [Home Page - Selected Products](#home-page---selected-products)
+    - [Home Page - Image Banner](#home-page---image-banner)
+    - [Home Page - Customers Reviews Carousel](#home-page---customers-reviews-carousel)
+    - [Products Page](#products-page)
+    - [Products Details](#products-details)
+    - [Products Details - Features](#products-details---features)
+    - [Products Details - Products on Sale](#products-details---products-on-sale)
+    - [Products Shopping Bag](#products-shopping-bag)
+    - [Products Shopping Bag - Products Coming Soon](#products-shopping-bag---products-coming-soon)
+    - [Products Checkout](#products-checkout)
+    - [Products Checkout - Success](#products-checkout---success)
+    - [Products Management](#products-management)
+    - [Profile Page](#profile-page)
+      - [Service Reviews Page](#service-reviews-page)
+      - [Add/Edit Service Review Page](#addedit-service-review-page)
+    - [Signup Page](#signup-page)
+    - [Signup Page - Verify Email](#signup-page---verify-email)
+    - [Signup Page - Confirm Email](#signup-page---confirm-email)
+    - [Login Page](#login-page)
+    - [Logout Page](#logout-page)
+    - [Reset Password Page](#reset-password-page)
+    - [Change Password Page](#change-password-page)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+    - [Page 404 - Page Not Found](#page-404---page-not-found)
+  - [Messages and Interaction with Users](#messages-and-interaction-with-users)
+    - [Sign up 1](#sign-up-1)
+    - [Sign up 2](#sign-up-2)
+    - [Login](#login)
+    - [Logout](#logout)
+    - [Profile Update](#profile-update)
+    - [Service Review - Add Review](#service-review---add-review)
+    - [Service Review - Update Review 1](#service-review---update-review-1)
+    - [Service Review - Update Review 2](#service-review---update-review-2)
+    - [Service Review - Delete Review 1](#service-review---delete-review-1)
+    - [Service Review - Delete Review 2](#service-review---delete-review-2)
+    - [Service Review - Delete Review 3](#service-review---delete-review-3)
+    - [Add Product](#add-product)
+    - [Edit Product 1](#edit-product-1)
+    - [Edit Product 2](#edit-product-2)
+    - [Edit Product 3](#edit-product-3)
+    - [Delete Product 1](#delete-product-1)
+    - [Delete Product 2](#delete-product-2)
+    - [Delete Product 3](#delete-product-3)
+    - [Add Product to Bag](#add-product-to-bag)
+    - [Update Bag](#update-bag)
+    - [Remove Product from Bag](#remove-product-from-bag)
+    - [Purchase Success](#purchase-success)
+    - [Purchase Success - Confirmation Email](#purchase-success---confirmation-email)
+  - [Admin Panel / Superuser](#admin-panel--superuser)
+  - [Marketing and Social Media](#marketing-and-social-media)
+    - [Statista - Facebook Users](#statista---facebook-users)
+    - [Watches \& Clocks - Facebook Page](#watches--clocks---facebook-page)
+    - [Meta Pixel - Tracking Audience](#meta-pixel---tracking-audience)
+    - [Mailchimp Subscription Service](#mailchimp-subscription-service)
+  - [Privacy Policy](#privacy-policy)
+  - [Search Engine Optimization](#search-engine-optimization)
+    - [sitemap.xml](#sitemapxml)
+    - [robots.txt](#robotstxt)
+    - [Sitemap Google Registration](#sitemap-google-registration)
+  - [AWS Setup Process](#aws-setup-process)
+    - [AWS S3 Bucket](#aws-s3-bucket)
+    - [IAM Set Up](#iam-set-up)
+    - [Connecting AWS to the Project](#connecting-aws-to-the-project)
+  - [Stripe Payments](#stripe-payments)
+    - [Payments](#payments)
+    - [Webhooks](#webhooks)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Django Packages](#django-packages)
+    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+    - [Testing](#testing)
+  - [Creating the Django app](#creating-the-django-app)
+  - [Deployment of This Project](#deployment-of-this-project)
+  - [Final Deployment](#final-deployment)
+  - [Forking This Project](#forking-this-project)
+  - [Cloning This Project](#cloning-this-project)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Information Sources / Resources](#information-sources--resources)
+  - [Special Thanks](#special-thanks)
+
+
+## User Experience- UX 
 
 ## The Strategy Plane
 <hr>
@@ -36,48 +140,65 @@ The main purpose of this website is to provide a platform for like-minded coffee
 
 ### User Stories
 
-<strong>As a basic site user:</strong>
+<strong>As a website user, I can: </strong>
 
-* I can search the website to find different recipes using keywords. 
-* I can see the view all page to see all coffee recipes. 
-* I can view the comments of the registered users. 
-* I can select a coffee recipe if I wish to see more detail on it.
+* Navigate around the site and easily view desired content. 
+* View a list of products and choose them. 
+* Search products to find a specific one 
+* Click on a product to view further details 
+* Register for an account to avail of member services. 
+* View product ratings to get an idea of what the admin thinks of it. 
+* View reviews for each product to get an idea of what past customers think. 
 
-<strong>As registered user:</strong>
 
-* I can register for a wholebeans account to allow me to access all of the functions throughout the website. 
-* I can create and share my coffee recipes for other users to see. 
-* I can edit my recipes if I decide to change them. 
-* I can delete my recipe if I dont like it anymore. 
-* I can comment on other users' recipes to give my thoughts. 
-* I can like recipes to show my support for other users. 
+<strong>As registered user, I can:</strong>
 
-<strong>As a SuperUser:</strong>
+* Review the website service. 
+* Delete my previous reviews.
+* Save my data under my personal profile. 
+* Edit my previous reviews. 
+* Manage my profile by updating my details. 
+* Logout of the website. 
+C* heckout easier by using personal profile. 
 
-* I can create draft posts if i dont have time to finish the post. 
-* I can approve other users' recipes before they are posted. 
-* I can edit other users' recipes. 
-* I can delete other users' recipes. 
-* I have access to the backend django admin system. 
+<strong>As a SuperUser, I can:</strong>
+
+* Create and publish a new product 
+* Create a draft of a new product to finish later 
+* Create a new user, products and categories. 
+* Delete userm products, categories and reviews. 
+* Approve user's reviews. 
+* Change a user's permissions on the webiste. 
+* Have access to the backend django admin system. 
+
+
 
 <strong>Agile Methodology</strong>
 
-I managed this project's functions and development through GitHubs projects Kanban board: 
+I managed this project's functions and development through GitHubs projects Kanban board, you can find it here: 
 
-[Wholebeans Coffee Recipes - USER STORIES](https://github.com/users/AdamVictory/projects/1)
+[grianghraf - USER STORIES](https://github.com/users/AdamVictory/projects/3)
 
 <h3>Scope</h3>
+
+#### Main Site Goals
 
 * The website should be functional, easy to navigate and intuitive. 
 * The front end should present the content clearly. Visually appealing. 
 * Users to manipulate their content (CRUD). 
 * Allow logged in users to interact with other posts through comments. 
-* Search - all users can use the search bar to quickly find recipes. 
+* Search - all users can use the search bar to quickly find products. 
 * Comments and Likes - Users can comment and like other posts. 
 * Users can sign in and sign out to view the website from different perspectives. Also can register for an account. 
-* Custom 404 & 500 pages for good UI. 
+* Custom 404 page for good UI. 
 * Use bootstrap to make the site responsive, and custom CSS and Javascript. 
 * Create a webpage application using the Django framework. 
+
+* Provide users a good website experience with cameras and lenses. 
+* Provide a website with a clear purpose. 
+* Provide a website that allows the business to market themselves. 
+* Provude users tools that allows them to search for products. 
+* Provide users with a safe way of checking out using Stripe. 
 
 
 ## The Structure Plane 
@@ -133,7 +254,7 @@ I created the wireframe using [Figma](https://www.figma.com/)
 
 ![Color Scheme](docs/images/colour-scheme.png)
 
-I kept the colour scheme simple for this project as i didn't want to distract the user too much and wanted the focus to be put on the recipe details. The blue is #2596be and the orange is #be4d25.
+I kept the colour scheme simple for this project as i didn't want to distract the user too much and wanted the focus to be put on the recipe details. I intentionally chose black and white for the colour scheme to allow all of the focus to be on the camera imagery. 
 
 All colours were generated by using [imagecolorpicker.com](https://imagecolorpicker.com/en). 
 
@@ -146,7 +267,7 @@ The font family for this project was: 'Sofia Sans', sans-serif; . I wanted to ke
 
 ### Imagery 
 
-I used [Unsplash](https://unsplash.com/) to source the main image for this project. The image is high quality and gives good inspiration for users on the purpose of this website. I didn't want to add too many images as I knew the users would be doing that themselves. This image also acts as a default placeholder for those who do not have images to post themselves.  
+I used [Unsplash](https://unsplash.com/) to source the main image for this project. The image is high quality and gives good inspiration for users on the purpose of this website.
 
 ![Background Image](docs/images/wholebeans.png)
 
