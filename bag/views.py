@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404, Http404
 from django.contrib import messages
 
 from products.models import Product 
@@ -92,6 +92,10 @@ def remove_from_bag(request, item_id):
         request.session['bag'] = bag
         return HttpResponse(status=200)
 
+    except Http404 as e: 
+        messages.error(request, f'Error removing item: {e}')
+        return HttpResponse(status=404)
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+        
