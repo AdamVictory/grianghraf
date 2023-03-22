@@ -38,9 +38,8 @@ INSTALLED_APPS = [
     'newsletter',
     'reviews',
     'django_summernote',
-    'crispy_forms', 
-    'wishlist',
-
+    'crispy_forms',
+    
 ]
 
 MIDDLEWARE = [
