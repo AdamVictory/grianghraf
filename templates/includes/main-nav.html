@@ -48,5 +48,19 @@
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+               <a href="{% url 'reviews' %}" aria-label="Go to the reviews page" class="dropdown-item">Customers Reviews</a>
+               {% if user.is_authenticated or user.is_superuser %}
+               <a href="{% url 'add_review' %}" aria-label="Go to the add reviews page" class="dropdown-item">Add Review</a>
+               {% else %}
+               {% endif %}
+               <a href="https://www.privacypolicygenerator.info/live.php?token=He4U9OHbOs5hfHSPBg0sqUnVRq04P12y" class="dropdown-item" target="_blank" rel="noopener">Privacy Policy</a>
+               <a href="/" class="dropdown-item">Intro</a>
+            </div>
+         </li>
     </ul>
 </div>

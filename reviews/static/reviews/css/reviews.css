@@ -1,0 +1,50 @@
+/*******************************
+*                              *
+*          REVIEWS CSS         *
+*                              *
+*******************************/
+
+#add_review form {
+    margin: 50px auto 0;
+    display: block;
+    width: inherit;
+}
+
+.btn-edit {
+    padding: 8px 26px;
+    margin-right: 8PX;
+}
+
+.btn-danger {
+    border: none;
+    padding: 6px 20px;
+    margin-right: 8PX;
+}
+
+#customers-reviews {
+    margin: 100px 0;
+}
+
+.review-image  {
+    width: 25%;
+}
+
+.review-box p:nth-child(2) {
+    font-weight: 600;
+}
+
+/*******************************
+*                              *
+*          MEDIA QUERIES       *
+*                              *
+*******************************/
+@media only screen and (max-width: 767px) {
+
+    .banner-box {
+        display: none;
+    }
+
+    .review-image  {
+        width: 50%;
+    } 
+}
