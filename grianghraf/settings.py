@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'profiles',
     'newsletter',
     'reviews',
-
-   # Other 
+    'django_summernote',
     'crispy_forms', 
+    'wishlist',
 
 ]
 
