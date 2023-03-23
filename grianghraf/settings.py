@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'newsletter',
     'reviews',
     'django_summernote',
+    'contact',
+
     'crispy_forms',
-    
 ]
 
 MIDDLEWARE = [
@@ -55,6 +56,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'grianghraf.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+SUMMERNOTE_THEME = 'bs4'
 
 TEMPLATES = [
     {
