@@ -22,6 +22,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: white;
 }
 
 .main-logo-link {
@@ -64,7 +65,7 @@ body {
 }
 
 .text-black {
-    color: black !important;
+    color: white !important;
 }
 
 .border-black {
