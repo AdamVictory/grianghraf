@@ -10,18 +10,6 @@ body {
 
 /* Navigation */
 
-.bg-platinum {
-    background-color:#E9EBEC;
-}
-
-.bg-light-brown {
-    background-color:#A9A6A4;
-}
-
-.color-brown {
-    color: #544B46;
-}
-
 .bg-black {
     background: #000 !important;
 }
@@ -141,7 +129,7 @@ input[name='q']::placeholder {
 /* Main content */
 .front-container {
     height: 100vh;
-    background: url('/media/homepage_background_cropped11.jpg') no-repeat center center fixed;
+    background: url('/media/canon-r5.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
