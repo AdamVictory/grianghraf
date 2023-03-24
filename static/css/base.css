@@ -3,12 +3,31 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    color: black;
+    height: 100vh;
+    background-color: white;
     font-family: 'Lato';
+}
+
+/* Navigation */
+
+.bg-platinum {
+    background-color:#E9EBEC;
+}
+
+.bg-light-brown {
+    background-color:#A9A6A4;
+}
+
+.color-brown {
+    color: #544B46;
+}
+
+.bg-black {
+    background: #000 !important;
+}
+
+#topnav h1 {
+    font-size: 1.7rem;
 }
 
 /* from Bulma */
@@ -27,7 +46,6 @@ body {
 
 .main-logo-link {
     width: fit-content;
-    height: 2cm; 
 }
 
 .shop-now-button {
@@ -61,11 +79,11 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: black;
 }
 
 .text-black {
-    color: white !important;
+    color: black !important;
 }
 
 .border-black {
@@ -82,13 +100,13 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: balck;
 	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
-    color: #fff !important;
+    color: black !important;
 }
 
 .btt-button {
