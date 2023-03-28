@@ -68,6 +68,7 @@ def get_versions():
     return {"this_version": THIS_VERSION,
             "current_version": CURRENT_VERSION}
 
+
 def needs_upgrade():
     """
     Checks the version of the current template against
