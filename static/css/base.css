@@ -2,13 +2,18 @@ html {
     height: 100%;
 }
 
+container {
+background-image: url('/media/homepage_background_cropped11.jpg;')
+    }
+
+
 body {
-    background: url('/media/sonya7c.jpg') no repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
+
 
 /* Navigation */
 
