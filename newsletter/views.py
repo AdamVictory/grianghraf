@@ -3,11 +3,11 @@ from django.http import JsonResponse
 import re
 from .models import SubscribedUsers
 from django.core.mail import send_mail
-from django.conf import settings 
+from django.conf import settings
 from django.contrib.auth.decorators import login_required
 
 @login_required
-def newsletter(request): 
+def newsletter(request):
     """ Function to create newsletter for user """
 
     if request.method == 'POST':
