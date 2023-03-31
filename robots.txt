@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /profiles/
+Disallow: /bag/
+Disallow: /checkout/
+Disallow: /checkout/checkout_success/
+Sitemap: https://grianghraf.herokuapp.com/sitemap.xml
