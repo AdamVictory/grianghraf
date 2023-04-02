@@ -1,16 +1,14 @@
 
-# grianghraf - Introduction
+# grianghraf - Project 5
 
 <h1 align=center>grianghraf - A B2C Digital Camera Store Website </h1>
 
 <h2 align=center>Introduction</h2>
 
 <p align=center>Project Portfolio 5 for the Code Institute Full-Stack development program: E-Commerce Applications. 
-grianghraf is a website for camera lovers dedicated to selling the best digital cameras on the market by filtering different categories. <br><br>
-It is a B2C business, that is targeted towards professional photographers and filmakers but also people looking to get into photography. 
-This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. They can also register for a personal profile by filling in their personal details on the website's profile page. All visitors are also welcome to drop a service review to help the admin know how the site is doing. The application has a good appearance with an easy and clear site navigation. 
 
-<br><br> Users can search different brands and add any products they may want to their basket and checkout. <br><br> Wholebeans has been built using the Django framework in python, HTML and CSS, and provides user authentication and full CRUD functionality for recipes </p>
+grianghraf is an e-commerce online store application built with Django and Python. It allows users to create their own accounts, and experience a full online shopping experience whereby they can purchase items of cameras and lenses. The application is for a B2C business, that is targeted towards professional photographers and filmakers but also people looking to get into photography. 
+This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. They can also register for a personal profile by filling in their personal details on the website's profile page. The application also provides customer enagement by allowing the user to rate and review the products they have purchased. The application has a good appearance with an easy and clear site navigation. 
 
 [Visit the live site on Heroku](https://grianghraf.herokuapp.com/)
 
@@ -175,7 +173,7 @@ The main purpose of this website is to provide a platform for like-minded coffee
 
 <strong>Agile Methodology</strong>
 
-I managed this project's functions and development through GitHubs projects Kanban board, you can find it here: 
+I managed this project's functions and development through GitHubs projects Kanban board. Each user story was submitted as an issue, and as I finished a sprint of work I then moved across the board from Todo, to In Progress, to Done as required. Some of the issues were flagged as Bugs, and returned to once these bugs were resolved. 
 
 [grianghraf - USER STORIES](https://github.com/users/AdamVictory/projects/3)
 
@@ -224,15 +222,11 @@ They will also be able to access all of their recipes, add new posts, edit old p
 
 ### Flowchart 
 
-I created this Flowchart using [Figma](https://www.figma.com/)
-
-![grianghraf Flowchart](docs/images/figma-flowchart.png)
+![grianghraf Flowchart](media/flowchart.png)
 
 ## Database Schema 
 
-I created this Database Schema using [Figma](https://www.figma.com/)
-
-![Database Schema](docs/images/databaseschema.png)
+![Database Schema](media/database.png)
 
 
 ## The Skeleton Plane
@@ -241,8 +235,7 @@ I created this Database Schema using [Figma](https://www.figma.com/)
 
 I created the wireframe using [Figma](https://www.figma.com/)
 
-![Home Wireframes](docs/images/figma-wireframe1.png)
-![All Recipes Wireframes](docs/images/figma-wireframe2.png)
+![Home Wireframes](media/wireframes.png)
 
 ## The Surface Plane
 
@@ -266,11 +259,39 @@ The font family for this project was: 'Sofia Sans', sans-serif; . I wanted to ke
 
 ### Imagery 
 
-I used [Conns Cameras](https://connscameras.ie/) to source the imagery for this project. The image is high quality and gives good inspiration for users on the purpose of this website.
-
-![Background Image](docs/images/wholebeans.png)
+I used [Conns Cameras](https://connscameras.ie/) to source the camer and lens imagery for this project. 
 
 ## Features 
+
+## Base Template
+The base template provides a structure to the application in that it holds the 2 main features of the application that are common to all views, the header and footer sections. A "base.html" file was created in Django to hold these elements, and also contain the various css and javascript links and files needed for inital loading of the application.
+
+## Header Section
+
+![Header Section](media/header.png)
+
+The header section consists of 4 elements, a logo which stacks to the upper left, a search bar which appears on upper center, and an icon menu which contains the links for logging in/out, wishlist and cart. Underneath this section there is a second row which houses the main bootstrap menu for the product, the various links allowing the user to search products by price, by category and so on. Just below the header section is an information bar, showing the current logged in users email and a message about free postage.
+
+## Banner Section
+
+The banner section consists of a call to action button which allows the user to be taken straight to the all products section. This is a key element of the e-commerce website as it provides a direct path to the products on website allowing for an easier e-commerce experience and leading to more sales. I wanted to keep this as simple and clear as possible to all the emphasis is on the button. 
+
+![Banner Section](media/homebanner.png)
+
+## Footer Section
+
+![Header Section](media/footer.png)
+
+The footer provides the user with links to our facebook social media account. It allow allows signed in users to subscribe to our newsletter. I wanted to only have it visible to signed in users to ensure the newsletter was sent to people who actually wanted to receive it. 
+
+
+
+
+
+![Navigation Bar General Users]
+
+
+
 
 ### Navigation Bar 
 
