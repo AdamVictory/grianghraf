@@ -1,14 +1,14 @@
 
 # grianghraf - Project 5
 
-<h1 align=center>A B2C Digital Camera Store Website </h1>
+<h1> A B2C Digital Camera Store Website </h1>
 
-<h2 align=center>Introduction</h2>
+<h2> align=center>Introduction</h2>
 
-<p align=center>Project Portfolio 5 for the Code Institute Full-Stack development program: E-Commerce Applications. 
+<p>Project Portfolio 5 for the Code Institute Full-Stack development program: E-Commerce Applications.</p> 
 
-grianghraf is an e-commerce online store application built with Django and Python. It allows users to create their own accounts, and experience a full online shopping experience whereby they can purchase items of cameras and lenses. The application is for a B2C business, that is targeted towards professional photographers and filmakers but also people looking to get into photography. 
-This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. They can also register for a personal profile by filling in their personal details on the website's profile page. The application also provides customer enagement by allowing the user to rate and review the products they have purchased. The application has a good appearance with an easy and clear site navigation. 
+<p>grianghraf is an e-commerce online store application built with Django and Python. It allows users to create their own accounts, and experience a full online shopping experience whereby they can purchase items of cameras and lenses. The application is for a B2C business, that is targeted towards professional photographers and filmakers but also people looking to get into photography. <br>
+This online sales platform allows users to quickly find the camera they are looking for and checkout with a seamless experience. They can also register for a personal profile by filling in their personal details on the website's profile page. The application also provides customer enagement by allowing the user to rate and review the products they have purchased. The application has a good appearance with an easy and clear site navigation.</p>
 
 [Visit the live site on Heroku](https://grianghraf.herokuapp.com/)
 
@@ -369,11 +369,18 @@ Facebook would not allow me to make a business profile so here is a mockup of wh
 
 - In order to add a page with the grianghraf Privacy Policy I used the service [Privacy Policy Generator](https://www.privacypolicygenerator.info/) to ensure that the website is compliant with the European Privacy Policy Rules.<br>
 
-![grianghraf - Privacy Policy Page](https://www.privacypolicygenerator.info/live.php?token=4mQX09cE1I04wjHRNdlZinuHWvRCNktY)<br>
+[grianghraf - Privacy Policy Page](https://www.privacypolicygenerator.info/live.php?token=4mQX09cE1I04wjHRNdlZinuHWvRCNktY)<br>
 
 ## Search Engine Optimization
 
-- The site was optimized by careful selection of keywords relating to the "world" of cameras. The chosen topics/words are based on my initial understanding of the business. Keywords were chosen based on common topics and themes within the industry. Topics and keywords were then tested tried out on Google and the relevantreturned search suggestions it gave were added to the keyword list.<br>
+- The site was optimized by careful selection of keywords relating to the "world" of cameras. The chosen topics/words are based on my initial understanding of the business. Keywords were chosen based on common topics and themes within the industry. Topics and keywords were then tested tried out on Google and the relevantreturned search suggestions it gave were added to the keyword list.
+
+The following are the keywords: 
+
+        content="Sale of new digital cameras in Ireland, grianghraf is the lead distributor of Canon, Sony and Nikon Cameras in Ireland. We will give you free delivery on orders over 50 euro">
+        <meta name="keywords"
+            content="Clearance, Deals, New Arrivals, Digital Cameras, Canon, Sony, Nikon, Ireland, lenses, lens, cameras, Dublin Camera Store">
+            <br>
 
 ### sitemap.xml
 
