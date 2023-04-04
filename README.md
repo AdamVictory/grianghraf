@@ -17,7 +17,7 @@ This online sales platform allows users to quickly find the camera they are look
 
 README Table Content
 
-- [grianghraf - Introduction](#watches--clocks---introduction)
+- [grianghraf - Introduction](#grianghraf---introduction)
   - [User Experience - UX](#user-experience---ux)
     - [User Stories](#user-stories)
     - [Agile Methodology](#agile-methodology)
@@ -85,7 +85,7 @@ README Table Content
   - [Admin Panel / Superuser](#admin-panel--superuser)
   - [Marketing and Social Media](#marketing-and-social-media)
     - [Statista - Facebook Users](#statista---facebook-users)
-    - [Watches \& Clocks - Facebook Page](#watches--clocks---facebook-page)
+    - [grianghraf - Facebook Page](#grianghraf---facebook-page)
     - [Meta Pixel - Tracking Audience](#meta-pixel---tracking-audience)
     - [Mailchimp Subscription Service](#mailchimp-subscription-service)
   - [Privacy Policy](#privacy-policy)
@@ -267,7 +267,11 @@ page by pressing the button "Keep Shopping".
 to the secure checkout to finish the order. Before secure checkout. the user can also change the quantity and remove unwanted products. The
 user can also leave this page by pressing the button "Keep Shopping".<br>
 
+### Products Checkout
 
+![Products Checkout](media/c)
+
+- On the checkout page, users will have to fill out the form and add the credit/debit card details to finish the purchase.<br>
 
 
 
@@ -340,7 +344,7 @@ aged between 18 - 24 and 31% of users aged between 25 - 34. This age category is
 This age range is viewed as the most likely to become potential customers.<br>
 
 
-### Watches & Clocks - Facebook Page
+### grianghraf - Facebook Page
 
 Facebook would not allow me to make a business profile so here is a mockup of what it would look like. 
 
@@ -565,7 +569,7 @@ You will need a stripe account which you can sign up for [here](https://stripe.c
     STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
     STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
     ```
-- Below is a screenshot of the Watches & Clocks - Stripe dashboard.
+- Below is a screenshot of the - Stripe dashboard.
 
 ![ Stripe Payments](media/stripepayments.png)<br>
 
