@@ -28,7 +28,7 @@ were entered into the checker and no errors were found in any of the custom code
 * views.py
 * webhook_handler.py
 * webhooks.py
-* 
+
 #### Home - Bag
 * admin.py
 * apps.py
@@ -79,7 +79,7 @@ were entered into the checker and no errors were found in any of the custom code
 * urls.py
 * wsgi.py
 * settings.py
-- A few errors were raised in the watches_and_clocks/settings.py file, however these were related to default django authorisation
+- A few errors were raised in the grianghraf/settings.py file, however these were related to default django authorisation
 code and could not be changed to remove the errors.
 * manage.py
 
@@ -98,8 +98,6 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
   
 ![CSS Validation Result](media/css.png)
 
-### Console Results
-![Console Results](./assets/readme/test/watches_clocks_console_results.jpg).
 
 ## Manual Testing
 ### Frontend
@@ -134,14 +132,4 @@ The Test case for this project can be found [here](TEST_CASE.md)
 
 * I had a weird bug when I was certificating the HTML code on the Validator W3C. My code was getting the following error present in the screenshot below.
 
-![Stray Tag W3C error](./assets/readme/test/bugs/watches_clocks_stray_tag_w3c_error.jpg).
-
-* I discovered that when moved the Django postloadjs block tag up and set it in between the ``<!-- END OF FOOTER -->`` and ``<!-- SCRIPTS -->``
-I could clean my code on the validator. However, this resulted in the Stripe script not loading and I Couldn't make a purchase.
-
-![Django Block Tag](./assets/readme/test/bugs/watches_clocks_django_block_tag.jpg).
-
-* I spent considerable time tryingto fix this bug without success. Then I had a call with my mentor and he figured out the HTML and body closing tags were in the 
-wrong place. I had them in the sripts.html file and they should be on the base.html.
-
-![HTML Tags](./assets/readme/test/bugs/watches_clocks_html_tags.jpg).
+![Stray Tag W3C error](media/bug.png)

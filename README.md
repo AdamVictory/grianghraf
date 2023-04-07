@@ -233,7 +233,7 @@ The footer provides the user with links to our facebook social media account. It
 ![Products Page](media/allproducts.png)
 
 - On this page, users will see all the products available on the website such as product details. For example,
-if the user is interested in the watch they can press the button "Buy Now". They can also sort products by price,
+if the user is interested in the camera they can press the button "Buy Now". They can also sort products by price,
 name, rating and category. Furthermore, when the site admin is logged in, it can edit or delete products.<br>
 
 ### Products Details
