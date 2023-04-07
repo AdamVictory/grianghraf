@@ -64,6 +64,16 @@ were entered into the checker and no errors were found in any of the custom code
 * views.py
 * widgets.py
 
+#### Newsletter - Bag
+* admin.py
+* apps.py
+* forms.py
+* forms.py
+* models.py
+* urls.py
+* views.py
+* widgets.py
+
 #### Project - grianghraf
 * asgi.py
 * urls.py
@@ -86,12 +96,7 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 * Custom CSS was validated using W3C Jigsaw validation service. Fifty-three warnings were displayed, however, 
   these are related to Google Fonts and vendor extension prefixes which will not affect the CSS performance.
   
-![CSS Validation Result](./assets/readme/test/watches_clocks_css_main_results.jpg).
-![CSS Validation Result](./assets/readme/test/watches_clocks_css_main_warnings.jpg).
-
-### jQuery Validation
-![jQuery Validation Result](./assets/readme/test/watches_clocks_js_hint_results_1.jpg).
-![jQuery Validation Result](./assets/readme/test/watches_clocks_js_hint_results_2.jpg).
+![CSS Validation Result](media/css.png)
 
 ### Console Results
 ![Console Results](./assets/readme/test/watches_clocks_console_results.jpg).
