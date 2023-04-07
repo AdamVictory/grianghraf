@@ -663,12 +663,9 @@ You will need a stripe account which you can sign up for [here](https://stripe.c
 * JShint - To test JavaScript
 * Jigsaw - To test CSS
 * Validator - To test HTML code 
-* Favicon.io - To create different favicon sizes. 
 * AWS - host static files and media. 
 
 ### Testing
-
-Testing results are [here](TESTING.md)
 
 [TESTING.md](TESTING.md) file
 

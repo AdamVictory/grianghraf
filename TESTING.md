@@ -133,3 +133,5 @@ The Test case for this project can be found [here](TEST_CASE.md)
 * I had a weird bug when I was certificating the HTML code on the Validator W3C. My code was getting the following error present in the screenshot below.
 
 ![Stray Tag W3C error](media/bug.png)
+
+I found no other major bugs in development and post. 
