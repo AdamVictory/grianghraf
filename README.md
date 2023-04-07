@@ -235,6 +235,14 @@ The banner section consists of a call to action button which allows the user to 
 
 ![Shipping Banner Section](media/shippingbanner.png)
 
+### Logo
+
+![Logo](media/logo.png)
+
+### Font Awesome
+
+![Font Awesome](media/fontawesome.png)
+
 
 ### Footer Section
 
@@ -253,12 +261,28 @@ name, rating and category. Furthermore, when the site admin is logged in, it can
 
 ### Products Details
 
-![Product Details ](media/productdetails.png)
+![Products Details ](media/productdetails.png)
 
 - This feature is at the top of the Product Details Page. Here users can see the product image and product
 information such as price, brand, category and rating. If the user is interested in the camera they can 
 choose the product quantity and add the product to their shopping bag. Also, the user can leave the 
 page by pressing the button "Keep Shopping".
+
+### Products Cameras
+
+![Products Cameras](media/cameras.png)
+
+### Products Special Offers
+
+![Products Special Offers](media/offers.png)
+
+### Products Lenses
+
+![Products Lenses](media/lenses.png)
+
+### Products filters
+
+![Products filters](media/filters.png)
 
 ### Products Shopping Bag
 
@@ -270,42 +294,61 @@ user can also leave this page by pressing the button "Keep Shopping".<br>
 
 ### Products Checkout
 
-![Products Checkout](media/c)
+![Products Checkout](media/orderdetailscheckout.png)
 
 - On the checkout page, users will have to fill out the form and add the credit/debit card details to finish the purchase.<br>
 
+### Products Add
+
+![Products Add](media/toast.png)
 
 
+### Contact Forn
+
+![Contact Forn](media/contact.png)
+
+### Products Add Product Admin
+
+![Products Add Product Admin](media/adminaddproduct.png)
+
+### Remove Product
+
+![Remove Product](media/removeproduct.png)
+
+### Edit Product
+
+![Edit Product](media/editproductadmin.png)
+
+### Delete Product
+
+![Delete Product](media/deleteprodcutadmin.png)
+
+### Customer Review
+
+![Add review](media/review.png)
 
 
+### Add Review
 
-### Navigation Bar 
-
-There are three different navigation bars: 
-
-* Navigation Bar 1 - General Users
-
-This navbar gives the general user the choice to see the homepage, view all coffee recipes, log in or sign up. They can also use the search bar. 
-
-![Navigation Bar General Users](docs/images/nav1.png)
-
-![Navigation Search Bar](docs/images/search.png)
-
-* Navigation Bar 2 - Registered Users
-
-This navbar shows links to Add recipe, My recipes and Logout. 
-
-![Navigation Bar Registered Users](docs/images/nav2.png)
-
-* Navigation Bar 3 - Super User
-
-This nav bar is for the super user. There is an additional link that allows them to approve, edit or delete recipes. 
-
-![Navigation Bar Super User](docs/images/nav3.png)
-
-### Banner
+![Add review](media/addreview.png)
 
 
+### Update Review
+
+![Update Review](media/updatereview.png)
+
+### Order History
+
+![Order History](media/orderhistory.png)
+
+
+### Update Bag
+
+![Update Bag](media/updatebag.png)
+
+### Update Product Bag
+
+![Update Product Bag](media/updateproductbag.png)
 
 ### Future features 
 
@@ -654,6 +697,9 @@ You will need a stripe account which you can sign up for [here](https://stripe.c
 Testing results are [here](TESTING.md)
 
 [TESTING.md](TESTING.md) file
+
+[TEST_CASE.md](TEST_CASE.md) file
+
 
 ### Creating the Django app
 
