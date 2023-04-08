@@ -18,7 +18,7 @@ body {
 /* Navigation */
 
 .bg-black {
-    background: #000 !important;
+    background: white!important;
 }
 
 #topnav h1 {
@@ -57,7 +57,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: green !important; /* use important to override link colors for <a> elements */
+    color: blue !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
     border-radius: 0.3rem;
 }
