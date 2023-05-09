@@ -4,8 +4,11 @@ html {
 
 container {
 background-image: url('/media/homepage_background_cropped11.jpg;')
-    }
+}
 
+container-fluid {
+    position: absolute-fixed;
+}
 
 body {
     background-size: cover;
@@ -23,7 +26,7 @@ body {
 
 #topnav h1 {
     font-size: 1.7rem;
-    position: fixed;
+    position: absolute;
 }
 
 /* from Bulma */
