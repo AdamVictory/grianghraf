@@ -23,6 +23,7 @@ body {
 
 #topnav h1 {
     font-size: 1.7rem;
+    position: fixed;
 }
 
 /* from Bulma */
