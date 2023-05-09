@@ -27,14 +27,11 @@ def webhook(request):
         )
     except ValueError as e:
         # Invalid payload
-        print(e)
         return HttpResponse(content=e, status=400)
     except stripe.error.SignatureVerificationError as e:
         # Invalid signature
-        print(e)
         return HttpResponse(content=e, status=400)
     except Exception as e:
-        print(e)
         return HttpResponse(content=e, status=400)
 
     # Set up a webhook handler
@@ -42,7 +39,7 @@ def webhook(request):
 
     # Map webhook events to relevant handler functions
     event_map = {
-        ".git/payment_intent.succeeded": handler.handle_payment_intent_succeeded,
+        "payment_intent.succeeded": handler.handle_payment_intent_succeeded,
         "payment_intent.payment_failed":
         handler.handle_payment_intent_payment_failed,
     }
